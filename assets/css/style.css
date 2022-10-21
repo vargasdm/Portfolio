@@ -38,3 +38,8 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+.body section img {
+    flex: 1 0 200px;
+    border-radius: 25px;
+}
