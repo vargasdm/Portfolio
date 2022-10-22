@@ -149,10 +149,15 @@ section article h2 {
 
 .column-work-projects-sub-horiseon {
     width: 33%;
-    color: #85dcb8;
     height: 100%;
+}
+
+.column-work-projects-sub-horiseon p {
+    color: #85dcb8;
+    height: auto;
     font-size: 50px;
-    /* background-image: url("assets\images\horiseon-background-img.png"); */
+    position: relative;
+    bottom: 300px;
 }
 
 .column-work-projects-sub-bootcamp {
@@ -160,7 +165,13 @@ section article h2 {
     color: #85dcb8;
     height: 100%;
     font-size: 40px;
-    background-image: url("assets\images\bootcamp-background-img.png");
+}
+.column-work-projects-sub-bootcamp p {
+    color: #85dcb8;
+    height: auto;
+    font-size: 50px;
+    position: relative;
+    bottom: 300px;
 }
 
 .column-work-projects-sub-comingsoon {
@@ -168,6 +179,13 @@ section article h2 {
     color: #85dcb8;
     height: 100%;
     font-size: 50px;
+}
+.column-work-projects-sub-comingsoon p {
+    color: #85dcb8;
+    height: auto;
+    font-size: 50px;
+    position: relative;
+    bottom: 300px;
 }
 
 
