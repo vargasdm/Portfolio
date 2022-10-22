@@ -38,13 +38,18 @@ a {
     text-decoration: none;
 }
 
-.section article {
-    display: inline-flex;
-    background-color: #85dcb8;
+section {
+    display: flex;
+    background-color: #85dcb8; 
     justify-content: space-between;
 }
 
-.section article img {
+section article {
+    display: inline-flex;
+    background-color: #85dcb8;
+}
+
+section article img {
     border-radius: 100px;
     max-width: 350px;
     max-height: 300px;
@@ -59,8 +64,8 @@ a {
     background-color: #2a607c;
 } */
 
-.section article h2 {
-    flex-direction: row;
+section article h2 {
+    justify-content: flex-end;
     padding: 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
