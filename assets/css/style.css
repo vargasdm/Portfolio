@@ -140,6 +140,15 @@ section article h2 {
     width: 100%;
 }
 
+.column-work-project-main p {
+    color: #85dcb8;
+    background-color:#e27d60;
+    height: auto;
+    font-size: 50px;
+    position: relative;
+    bottom: 1210px;
+}
+
 .column-work-projects-sub {
     display: flex;
     flex-direction: row;
