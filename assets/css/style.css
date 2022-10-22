@@ -107,6 +107,13 @@ section article h2 {
     justify-content: center;
 }
 
+.column-about-me-text {
+    font-size: 25px;
+    color: #85dcb8;
+    height: 15%;
+    padding: 5%;
+}
+
 .column-work {
     display: flex;
     border-bottom: none;
@@ -118,7 +125,7 @@ section article h2 {
 }
 
 .column-contact-me {
- 
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 10%;
@@ -174,7 +181,7 @@ section article h2 {
     text-decoration: underline;
     width: 75%;
     font-size: 30px;
-}
+}s
 
 footer {
     border-top: solid #e27d60;
