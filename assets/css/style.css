@@ -41,17 +41,19 @@ a {
 section {
     display: flex;
     background-color: #85dcb8; 
-    justify-content: space-between;
+  
 }
 
 section article {
     display: inline-flex;
     background-color: #85dcb8;
+    width: 100%;
+    justify-content: space-between;
 }
 
 section article img {
     border-radius: 100px;
-    max-width: 350px;
+    max-width: 350px;   
     max-height: 300px;
     justify-content: flex-start;
 }
@@ -70,7 +72,7 @@ section article h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     align-items: center;
-    height: 75px;
+    font-size: 500%;
 }
 
 /* .subtitle {
