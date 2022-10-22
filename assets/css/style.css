@@ -215,6 +215,10 @@ section article h2 {
     font-size: 30px;
 }
 
+.contact-me-list a {
+    color: #85dcb8;
+}
+
 footer {
     border-top: solid #e27d60;
 }
