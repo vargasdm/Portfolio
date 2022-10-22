@@ -37,7 +37,7 @@
     border: none;
 }
 
-a {
+.header section ul li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -73,7 +73,7 @@ section article h2 {
     font-size: 500%;
 }
 
-.column {
+/* .column {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -83,15 +83,44 @@ section article h2 {
     border-right: solid #e27d60;
     border-bottom: solid #e27d60;
 
+} */
+
+/* .flex {
+    display: flex;
+} */
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 2000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
-/* .column-about-me {
+.contents aside {
+    width: 25%;
+    height: 100%;
+    background-color: #85dcb8;
+    text-align: right;
+    color: white;
+    justify-content: space-between, left;
+}
+
+.contents article {
+    width: 75%;
+    color: #85dcb8;
+    height: 100%;
+}
+
+
+
+.column-about-me {
     border-bottom: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 15%;
     width: 100%;
-
 }
 
 .column-work {
@@ -100,7 +129,6 @@ section article h2 {
     font-size: 75px;
     height: 75%;
     width: 100%;
-
 }
 
 .column-contact-me {
@@ -109,25 +137,54 @@ section article h2 {
     font-size: 75px;
     height: 10%;
     width: 100%;
+}
 
-} */
+.column-work-project-main {
+    border-bottom: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    height: 60%;
+    width: 100%;
+}
 
-.contents {
+.column-work-projects-sub {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 15%;
+    /* border-bottom: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    height: 25%;
+    width: 100%; */
 }
 
-.content aside {
-    width: 50%;
-    height: 50%;
-    background-color: #85dcb8;
-    text-align: right;
-    color: white;
-}
-
-.content article {
-    width: 50%;
+.column-work-projects-sub-horiseon {
+    width: 33%;
     color: #85dcb8;
-    height: 50%;
+    height: 100%;
+}
+
+.column-work-projects-sub-bootcamp {
+    width: 33%;
+    color: #85dcb8;
+    height: 100%;
+}
+
+.column-work-projects-sub-comingsoon {
+    width: 33%;
+    color: #85dcb8;
+    height: 100%;
+}
+
+
+.contact-me-list {
+    display: inline-flex;
+    color: #85dcb8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    text-decoration: underline;
+    width: 75%;
 }
