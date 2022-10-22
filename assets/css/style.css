@@ -3,7 +3,7 @@
     flex-direction: row;
     padding: 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #85dcb8;
     color: #ffffff;
     justify-content: space-between;
     align-items: center;
@@ -13,10 +13,10 @@
 .header h1 {
     display: inline-block;
     height: 75px;
-    background-color:bisque;
+    background:#e27d60;;
     border-radius: 25px;
     font-size: 60px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .header section {
@@ -39,26 +39,44 @@ a {
     text-decoration: none;
 }
 
-.article{
+.section article {
     display: inline-flex;
+    background-color: #85dcb8;
+    justify-content: space-between;
 }
 
-.article img {
+.section article img {
     border-radius: 100px;
     max-width: 350px;
-    max-height: 350px;
+    max-height: 300px;
+    justify-content: flex-start;
+}
+/* .profile-picture {
+    display: inline-flex;
+    border-radius: 100px;
+    max-width: 350px;
+    max-height: 300px;
     justify-content: flex-start;
     background-color: #2a607c;
+} */
+
+.section article h2 {
+    flex-direction: row;
+    padding: 0px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    align-items: center;
+    height: 75px;
 }
 
-.subtitle {
-    display: flex;
+/* .subtitle {
+    display: inline-flex;
     flex-direction: row;
     padding: 0px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
-}
+    height: 75px;
+} */
