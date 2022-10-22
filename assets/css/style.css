@@ -83,10 +83,10 @@ section article h2 {
 }
 
 .contents aside {
+    
     width: 25%;
     height: 100%;
     background-color: #85dcb8;
-    text-align: right;
     color: white;
     justify-content: space-between, left;
     border-right: solid #e27d60;
@@ -99,18 +99,22 @@ section article h2 {
 }
 
 .column-about-me {
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 15%;
     width: 100%;
+    justify-content: center;
 }
 
 .column-work {
+    display: flex;
     border-bottom: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 75%;
     width: 100%;
+    justify-content: center;
 }
 
 .column-contact-me {
@@ -160,7 +164,9 @@ section article h2 {
 
 .contact-me-list {
     display: inline-flex;
+    height: 100px;
     color: #85dcb8;
+    padding-left: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: space-between;
     align-items: center;
@@ -168,7 +174,7 @@ section article h2 {
     text-decoration: underline;
     width: 75%;
     font-size: 30px;
-}s
+}
 
 footer {
     border-top: solid #e27d60;
