@@ -154,10 +154,11 @@ section article h2 {
 
 .column-work-projects-sub-horiseon p {
     color: #85dcb8;
+    background-color:#e27d60;
     height: auto;
     font-size: 50px;
     position: relative;
-    bottom: 300px;
+    bottom: 302px;
 }
 
 .column-work-projects-sub-bootcamp {
@@ -168,10 +169,11 @@ section article h2 {
 }
 .column-work-projects-sub-bootcamp p {
     color: #85dcb8;
+    background-color:#e27d60;
     height: auto;
     font-size: 50px;
     position: relative;
-    bottom: 300px;
+    bottom: 305px;
 }
 
 .column-work-projects-sub-comingsoon {
@@ -182,10 +184,11 @@ section article h2 {
 }
 .column-work-projects-sub-comingsoon p {
     color: #85dcb8;
+    background-color:#e27d60;
     height: auto;
     font-size: 50px;
     position: relative;
-    bottom: 300px;
+    bottom: 305px;
 }
 
 
