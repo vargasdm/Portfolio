@@ -85,7 +85,7 @@ section article h2 {
 
 }
 
-.column-about-me {
+/* .column-about-me {
     border-bottom: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
@@ -110,5 +110,24 @@ section article h2 {
     height: 10%;
     width: 100%;
 
+} */
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.content aside {
+    width: 50%;
+    height: 50%;
+    background-color: #85dcb8;
+    text-align: right;
+    color: white;
+}
+
+.content article {
+    width: 50%;
+    color: #85dcb8;
+    height: 50%;
+}
