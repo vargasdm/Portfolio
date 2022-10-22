@@ -73,22 +73,6 @@ section article h2 {
     font-size: 500%;
 }
 
-/* .column {
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #85dcb8;
-    height: 2000px;
-    width: 25%;
-    border-right: solid #e27d60;
-    border-bottom: solid #e27d60;
-
-} */
-
-/* .flex {
-    display: flex;
-} */
-
 .contents {
     display: flex;
     flex-direction: row;
@@ -105,6 +89,7 @@ section article h2 {
     text-align: right;
     color: white;
     justify-content: space-between, left;
+    border-right: solid #e27d60;
 }
 
 .contents article {
@@ -113,10 +98,7 @@ section article h2 {
     height: 100%;
 }
 
-
-
 .column-about-me {
-    border-bottom: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 15%;
@@ -132,7 +114,7 @@ section article h2 {
 }
 
 .column-contact-me {
-    border-bottom: none;
+ 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
     height: 10%;
@@ -152,29 +134,27 @@ section article h2 {
     flex-direction: row;
     flex-wrap: wrap;
     height: 15%;
-    /* border-bottom: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 75px;
-    height: 25%;
-    width: 100%; */
 }
 
 .column-work-projects-sub-horiseon {
     width: 33%;
     color: #85dcb8;
     height: 100%;
+    font-size: 50px;
 }
 
 .column-work-projects-sub-bootcamp {
     width: 33%;
     color: #85dcb8;
     height: 100%;
+    font-size: 40px;
 }
 
 .column-work-projects-sub-comingsoon {
     width: 33%;
     color: #85dcb8;
     height: 100%;
+    font-size: 50px;
 }
 
 
@@ -187,4 +167,9 @@ section article h2 {
     margin-left: 25px;
     text-decoration: underline;
     width: 75%;
+    font-size: 30px;
+}s
+
+footer {
+    border-top: solid #e27d60;
 }
