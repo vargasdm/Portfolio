@@ -243,7 +243,7 @@ footer {
     .column-contact-me {
         font-size: 30px;
     }
-    /* .column-about-me-text {
+    .column-about-me-text {
         font-size: 16px;
     }
     .column-work-project-main p {
@@ -254,7 +254,7 @@ footer {
         height: 414px;
         width: 300px;
     }
-    .column-work-projects-sub-horiseon p {
+    /* .column-work-projects-sub-horiseon p {
         font-size: 30px;
     }
     .column-work-projects-sub-bootcamp p {
