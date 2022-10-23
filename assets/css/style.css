@@ -254,7 +254,7 @@ footer {
         height: 414px;
         width: 300px;
     }
-    /* .column-work-projects-sub-horiseon p {
+    .column-work-projects-sub-horiseon p {
         font-size: 30px;
     }
     .column-work-projects-sub-bootcamp p {
@@ -280,7 +280,7 @@ footer {
         flex-wrap: wrap;
         height: 414px;
         width: 300px;
-    } */
+    }
 }
 
 /* @media (max-width: 414px) {
