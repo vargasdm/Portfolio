@@ -159,6 +159,7 @@ section article h2 {
 .column-work-projects-sub-horiseon {
     width: 33%;
     height: 100%;
+    /* flex: 33%; */
 }
 
 .column-work-projects-sub-horiseon p {
@@ -175,6 +176,7 @@ section article h2 {
     color: #85dcb8;
     height: 100%;
     font-size: 40px;
+    /* flex: 33%; */
 }
 .column-work-projects-sub-bootcamp p {
     color: #85dcb8;
@@ -190,6 +192,7 @@ section article h2 {
     color: #85dcb8;
     height: 100%;
     font-size: 50px;
+    /* flex: 33%; */
 }
 .column-work-projects-sub-comingsoon p {
     color: #85dcb8;
@@ -200,7 +203,7 @@ section article h2 {
     bottom: 307px;
 }
 
-.contact-me-list {
+.contact-me-list{
     display: inline-flex;
     height: 100px;
     color: #85dcb8;
@@ -231,6 +234,9 @@ footer {
     .header h1 {
         font-size: 20px;
     }
+    /* .content {
+        height: 1656px;
+    } */
     section article h2 {
         font-size: 50px;
     }
@@ -241,45 +247,52 @@ footer {
         font-size: 30px;
     }
     .column-contact-me {
-        font-size: 30px;
+        font-size: 27px;
     }
     .column-about-me-text {
         font-size: 16px;
     }
+    .column-work-project-main {
+        height: 414px;
+        width: 300px;
+    }
     .column-work-project-main p {
         font-size: 30px;
-        bottom: 414px;
+        bottom: 420px;
     }
     .column-work-project-main img {
         height: 414px;
         width: 300px;
     }
+    .column-work-projects-sub-horiseon  {
+        flex-direction: column;
+        font-size: 30px;
+        width: 300px;
+    }
     .column-work-projects-sub-horiseon p {
         font-size: 30px;
+    }
+    .column-work-projects-sub-bootcamp  {
+        flex-direction: column;
+        font-size: 30px;
+        width: 300px;
     }
     .column-work-projects-sub-bootcamp p {
         font-size: 30px;
     }
+    .column-work-projects-sub-comingsoon  {
+        flex-direction: column;
+        font-size: 30px;
+        width: 300px;
+    }
     .column-work-projects-sub-comingsoon p {
         font-size: 30px;
     }
-    .column-work-projects-sub-horiseon img {
-        display: flex;
-        flex-wrap: wrap;
-        height: 414px;
+    .contact-me-list {
+        flex-direction: column;
+        font-size: 30px;
         width: 300px;
-    }
-    .column-work-projects-sub-bootcamp img {
-        display: flex;
-        flex-wrap: wrap;
-        height: 414px;
-        width: 300px;
-    }
-    .column-work-projects-sub-comingsoon img {
-        display: flex;
-        flex-wrap: wrap;
-        height: 414px;
-        width: 300px;
+        justify-content: flex-end;
     }
 }
 
