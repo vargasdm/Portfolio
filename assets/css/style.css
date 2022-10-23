@@ -132,6 +132,7 @@ section article h2 {
 }
 
 .column-work-project-main {
+    display: flex;
     border-bottom: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 75px;
@@ -222,3 +223,75 @@ footer {
     border-top: solid #e27d60;
     justify-content: center;
 }
+
+@media (max-width: 949px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    section article h2 {
+        font-size: 50px;
+    /* }
+    .column-about-me  {
+        font-size: 30px;
+    }
+    .column-work {
+        font-size: 30px;
+    }
+    .column-contact-me {
+        font-size: 30px;
+    }
+    .column-about-me-text {
+        font-size: 16px;
+    }
+    .column-work-project-main p {
+        font-size: 30px;
+        bottom: 414px;
+    }
+    .column-work-project-main img {
+        height: 414px;
+        width: 300px;
+    }
+    .column-work-projects-sub-horiseon p {
+        font-size: 30px;
+    }
+    .column-work-projects-sub-bootcamp p {
+        font-size: 30px;
+    }
+    .column-work-projects-sub-comingsoon p {
+        font-size: 30px;
+    }
+    .column-work-projects-sub-horiseon img {
+        display: flex;
+        flex-wrap: wrap;
+        height: 414px;
+        width: 300px;
+    }
+    .column-work-projects-sub-bootcamp img {
+        display: flex;
+        flex-wrap: wrap;
+        height: 414px;
+        width: 300px;
+    }
+    .column-work-projects-sub-comingsoon img {
+        display: flex;
+        flex-wrap: wrap;
+        height: 414px;
+        width: 300px;
+    }
+} */
+    }
+}
+/* @media (max-width: 414px) {
+    .column-work-project-main img {
+        height: 414px;
+        width: 300px;
+    }
+    .column-work-project-main p {
+        font-size: 30px;
+        bottom: 414px;
+    }
+
+} */
