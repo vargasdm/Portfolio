@@ -1,7 +1,3 @@
-* {
-    display: flex;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -202,7 +198,6 @@ section article h2 {
     position: relative;
     bottom: 307px;
 }
-
 
 .contact-me-list {
     display: inline-flex;
