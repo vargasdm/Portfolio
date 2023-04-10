@@ -1,41 +1,63 @@
-# Portfolio
+# React-Portfolio
 
-##Description
+## Description
 
-The purpose of this application is to have somewhere to store all of my work as I move through this coding bootcamp, as well as have a place to show future employers my past work. In doing this I also made this application responsive in that when you change the viewport from a pc to a moblile device, the page elements should respond accordingly. I was able to make the webpage responsive by using the flex display property and by using mediaqueryies to change the layout and size based on the viewport of the device.What I learned during this project was: media queries, flexbox and its properties (flex-direction, flex-wrap, flex-flow, align-items, justify-content, flex-start, etc), how to set an image as an anchor, being more organized when ordering and naming htm,l and css styling elements, and using a reset css style sheet
+The motivation for this project was to create a a single-page web application using React. This way I, as a developer, can practice using React as well as create an application to use as my portfolio. This way I can show future employers what I have worked on.
 
-![Screenshot](https://github.com/vargasdm/Portfolio/blob/main/assets/images/portfolio-desktop-view.jpg)
-![Screenshot](https://github.com/vargasdm/Portfolio/blob/main/assets/images/portfolio-mobile-view.jpg)
+During this project I learned: 
+- how to install and React as a way to create single-page web applications
+- how to implement JSX expressions in order to have JavaScript functionality in my application
+- how to use props as arguments for functions in React tht are define in one fie, but can be used in others
+- the concempt of compnenets and how they function as part of the single-page application that can be rendered at different times without changing the page
+- how to set up and implement useState in react 
 
-##Usage
+## Table of Contents
 
-There is no installation required. The project can be viewed at through the following link: https://vargasdm.github.io/Portfolio/
-The GitHub repository can be viewed at https://github.com/vargasdm/Portfolio
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-##Credits
+## Installation
+
+First, you will need to clone this repository to your local machine. The repository should already contain the package.json file in the root, client, and server directories as well as the package-lock.json file. This application requires you to have the following dependencies:
+
+Root Directory:
+- bootstrap 
+- react
+- react-dom
+- react-icons
+- react-scripts
+
+The dependedcies can be installed by opening the terminal in the root directory and entering "npm install". The user will be able to check the package.jason file and find the dependencies. In order to bundle the applications assets and build the client of the application the user will need to enter "npm run build" in the root terminal. Lastly, to run the application, the user will have to enter "npm run start" in ther root terminal.
+
+To install the packages check these resources:
+- https://www.npmjs.com/package/bootstrap
+- https://www.npmjs.com/package/react
+- https://www.npmjs.com/package/react-dom
+- https://www.npmjs.com/package/react-icons
+- https://www.npmjs.com/package/react-scripts
+
+## Usage
+
+This application can be used to show off my work as a new software developer. You can learn a little about me, see my portfolio of projects, contact me if you wan to know more about me, and even download my resume. The application is deployed using GitPages. 
+
+When the opens the application, they are presented with a homepage that displays navigation bar with tabs to different sections of my portfolio, the about me page that shows my bio and profile pic, and a footer with links to my socials. In the portfolio tab you can see some projects that I have created or helped create as well as their associated repos and links to the deployed applications. In the contact section, you can see a form that allows you to send me a message, by providing your name, email, and what you want to say to me. Finallym the resume section holds the link to my resume that can be downloaded as well as my proficiencies.
+
+The deployed Heroku application can be view at: https://jatechallenge.herokuapp.com/
+
+## Credits
 
 I followed these links and tutorials in the completion of this project:
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-https://www.w3schools.com/css/css3_flexbox_responsive.asp
-https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html
-https://www.w3schools.com/css/css_selectors.asp
-https://www.w3schools.com/css/css_positioning.asp
-https://stackoverflow.com/questions/25273991/position-relative-and-absolute?rq=1
-\https://www.w3schools.com/howto/howto_css_image_text.asp
-https://stackoverflow.com/questions/5379752/css-style-external-links
-https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp
-https://www.w3schools.com/css/css_float.asp
-https://www.w3schools.com/css/css_float_clear.asp
-https://www.w3schools.com/howto/howto_css_responsive_text.asp
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS
+- https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen
+- https://fontawesome.com/docs/web/use-with/react/style
+- https://www.w3schools.com/css/css_important.asp
+- https://www.w3schools.com/jsref/event_onblur.asp
+- https://stackoverflow.com/questions/68014046/warning-each-child-in-a-list-should-have-a-unique-key-prop-but-i-have-key-pro
+- https://create-react-app.dev/docs/adding-images-fonts-and-files/
 
-## Features
 
-The main feature of this application is that when the width goes below 949px, the layout changes so that [users who want to view this page from a mobile device are able to see the elements of the page in an mobile friendly layout. Other features include anchor tags in the header work section, and contact me section. When interacted with the anchor elements in the header you will jump to the corresponding section. The anchor tags in the work section take you to the deployed page for that project. Finally the anchor tag in the coming soon section and contact me section will take you to my GitHub page with all of my repositories.
+## License
 
-##License
-
-No licenses were used during this project.
-
+No license is used for this project.
